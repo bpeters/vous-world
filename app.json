@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Vous World",
+    "slug": "vous-world",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "world.vous.app",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.141881425210-boaor1rntfvqgh4thsvse88nqc9q50o8"
+        }
+      }
+    },
+    "android": {
+      "package": "world.vous.app",
+      "googleServicesFile": "./google-services.json"
+  }
+  }
+}
